@@ -71,13 +71,13 @@ export class ImageCardComponent implements OnInit {
       name: 'Brock lesner',
       details:
         ' Lorem ipsum dolor sit ame Odio voluptatum sed',
+    },
+    {
+      background: 'assets/background/7.jpg',
+      profile: 'assets/background/10.jpg',
+      name: 'Stone cold steave austin',
+      details:
+        ' Lorem ipsum pisicing elit. Odio animi fugiat us voluptatum sed',
     }
-    // {
-    //   background: 'assets/background/7.jpg',
-    //   profile: 'assets/background/10.jpg',
-    //   name: 'Stone cold steave austin',
-    //   details:
-    //     ' Lorem ipsum pisicing elit. Odio animi fugiat us voluptatum sed',
-    // }
   ];
 }

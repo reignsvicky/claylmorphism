@@ -1,6 +1,8 @@
 .card-section {
     display: flex;
     flex-wrap: wrap;
+    // align-items: center;
+    justify-content: center;
 }
 .explore {
     font-size: 3.5em;
@@ -14,8 +16,8 @@
 
 .card-container {
   padding: 20px 33px 10px 33px;
-  width: 480px;
-  flex-basis: 1;
+  width: 370px;
+  
 
   .image-container {
     box-shadow: rgb(4 17 29 / 25%) 0px 0px 10px 0px;
@@ -57,7 +59,7 @@
     display: flex;
     background-color: rgb(251, 253, 255);
     position: relative;
-    height: 17em;
+    height: 20em;
 
     .profile {
       align-self: center;
