@@ -1,0 +1,125 @@
+.card-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+.explore {
+    font-size: 3.5em;
+    color: var(--btn-blue);
+    font-weight: 400;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+    
+}
+
+.card-container {
+  padding: 20px 33px 10px 33px;
+  width: 480px;
+  flex-basis: 1;
+
+  .image-container {
+    box-shadow: rgb(4 17 29 / 25%) 0px 0px 10px 0px;
+    transition: box-shadow 0.3s ease-in 0s;
+    border-radius: 18px;
+  }
+
+  .image-container:hover {
+    transition: box-shadow 0.3s ease-in 0s;
+    box-shadow: rgb(4 17 29 / 25%) 0px 0px 50px 0px;
+  }
+
+  a {
+    border-radius: 10px;
+    text-decoration: none;
+
+    .image-section {
+      //   height: 420px;
+      border-bottom: 1px solid rgb(229, 232, 235);
+
+      img {
+        object-fit: contain;
+        width: 100%;
+        height: 60%;
+        border-top-left-radius: 18px;
+        border-top-right-radius: 18px;
+      }
+    }
+  }
+
+  .image-footer {
+    width: 100%;
+    font-weight: 600;
+    padding: 16px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    display: flex;
+    background-color: rgb(251, 253, 255);
+    position: relative;
+    height: 17em;
+
+    .profile {
+      align-self: center;
+      margin-right: 16px;
+    //   flex-shrink: 0;
+      overflow: hidden;
+      border: 1px solid rgb(229, 232, 235);
+      border-radius: 50%;
+      position: absolute;
+      top: 0%;
+      left: 50%;
+      width: 7em;
+      height: 7em;
+      transform: translate(-50%, -50%);
+
+      padding: 1px;
+      background: white;
+      img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+      }
+    }
+    .name-container {
+      display: flex;
+      flex: 1 1 auto;
+      flex-flow: column;
+      justify-content: center;
+      margin-right: 16px;
+      overflow: hidden;
+      font-size: 16px;
+      align-items: center;
+
+      .name {
+        font-weight: 600;
+        font-size: 1em;
+        color: var(--btn-blue);
+      }
+      .details {
+        font-weight: 400;
+        font-size: 1em;
+        color: var(--secondary-txt-clr-grey);
+        text-align: center;
+      }
+    }
+    .info {
+      align-self: stretch;
+      display: flex;
+      flex: 0 0 auto;
+      flex-flow: column;
+      justify-content: center;
+
+      display: none;
+      button {
+        border: none;
+        background: none;
+      }
+      img {
+        width: 3em;
+        opacity: 0.5;
+      }
+    }
+  }
+}

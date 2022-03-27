@@ -1,1 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'styles/main.scss';
+
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: "Montserrat";
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Montserrat";
+  background: #e4ebff;
+  .container {
+    max-width: 127.5rem !important;
+    // max-width: 142.0rem !important;
+  }
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+
+}
+

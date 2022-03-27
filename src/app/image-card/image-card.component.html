@@ -1,0 +1,21 @@
+<div class="explore">EXPLORE COLLECTIONS</div>
+<div class="card-section col-md">
+    <div class="card-container" *ngFor="let item of data">
+        <div class="image-container">
+          <a href="">
+            <div class="image-section">
+              <img [src]="item.background" alt="Alaska sky" />
+            </div>
+            <div class="image-footer btn-clr">
+              <div class="profile">
+                <img [src]="item.profile" alt="logo" />
+              </div>
+              <div class="name-container">
+                <span class="name">{{ item.name}}</span>
+                <span class="details">{{ item.details}}</span>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+</div>

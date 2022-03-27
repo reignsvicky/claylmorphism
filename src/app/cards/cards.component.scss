@@ -1,0 +1,42 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1.5em;
+}
+
+h1 {
+    text-align: center;
+    color: var(--btn-blue);
+    margin-top: 180px !important;
+    margin-bottom: 50px !important;
+    font-size: 3em;
+}
+
+.card {
+  background: #f2fbfc59;
+  border-radius: 48px;
+  box-shadow: 8px 8px 16px 0 rgba(0, 0, 0, 0.25),
+    /* Outset shadow */ inset -8px -8px 12px 0 rgba(0, 0, 0, 0.25),
+    /* Dark inset shadow */ inset 8px 8px 12px 0 rgba(255, 255, 255, 0.4); /* Light inset shadow */
+  text-align: center;
+  display: grid;
+  place-items: center;
+  width: 10em;
+  flex-grow: 1;
+  padding: 2em;
+  margin: 2em;
+  border: none;
+  .image {
+    img {
+    }
+  }
+  .title {
+    color: var(--btn-blue);
+    font-size: 2em;
+    font-weight: 500;
+  }
+  .details {
+    color: var(--primary-txt-clr-grey);
+    font-size: 1.5em;
+  }
+}
