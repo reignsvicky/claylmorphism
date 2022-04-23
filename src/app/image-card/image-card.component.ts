@@ -10,20 +10,20 @@ export class ImageCardComponent implements OnInit {
 
   ngOnInit(): void {}
   data = [
-    {
-      background: 'assets/background/4.jpg',
-      profile: 'assets/background/1.jpg',
-      name: 'Kacii Eleven',
-      details:
-        ' consectetur adipisicing elit.   commodi rerum minus voluptatum sed',
-    },
-    {
-      background: 'assets/background/6.jpg',
-      profile: 'assets/background/2.jpg',
-      name: 'Toomuch lang',
-      details:
-        ' Odio animi fugiat consectetur corrupti, doloremque minus voluptatum sed',
-    },
+    // {
+    //   background: 'assets/background/4.jpg',
+    //   profile: 'assets/background/1.jpg',
+    //   name: 'Kacii Eleven',
+    //   details:
+    //     ' consectetur adipisicing elit.   commodi rerum minus voluptatum sed',
+    // },
+    // {
+    //   background: 'assets/background/6.jpg',
+    //   profile: 'assets/background/2.jpg',
+    //   name: 'Toomuch lang',
+    //   details:
+    //     ' Odio animi fugiat consectetur corrupti, doloremque minus voluptatum sed',
+    // },
     {
       background: 'assets/background/1.jpg',
       profile: 'assets/background/3.jpg',

@@ -7,6 +7,7 @@ import { NavComponent } from './nav/nav.component';
 import { HomeComponent } from './home/home.component';
 import { CardsComponent } from './cards/cards.component';
 import { ImageCardComponent } from './image-card/image-card.component';
+import { SliderComponent } from './slider/slider.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ImageCardComponent } from './image-card/image-card.component';
     NavComponent,
     HomeComponent,
     CardsComponent,
-    ImageCardComponent
+    ImageCardComponent,
+    SliderComponent
   ],
   imports: [
     BrowserModule,
